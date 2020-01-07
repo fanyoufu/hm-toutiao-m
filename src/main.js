@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import Button from 'vant/lib/button'
+import 'vant/lib/button/style'
+
+Vue.use(Button)
 Vue.config.productionTip = false
 
 new Vue({
